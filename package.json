@@ -1,6 +1,6 @@
 {
   "name": "@stal/paginator",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/stepobiz/stal-paginator.git"
@@ -11,8 +11,8 @@
     "url": "https://stepo.biz"
   },
   "peerDependencies": {
-    "@angular/common": "^14.2.0",
-    "@angular/core": "^14.2.0"
+    "@angular/common": "^14.0.0",
+    "@angular/core": "^14.0.0"
   },
   "dependencies": {
     "tslib": "^2.3.0"
