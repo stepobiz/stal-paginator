@@ -1,16 +1,19 @@
+import { CommonModule } from '@angular/common';
 import { NgModule } from '@angular/core';
-import { PaginatorComponent } from './paginator.component';
-
-
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { PaginatorComponent } from './components/paginator/paginator.component';
 
 @NgModule({
-  declarations: [
-    PaginatorComponent
-  ],
-  imports: [
-  ],
-  exports: [
-    PaginatorComponent
-  ]
+	imports: [
+		CommonModule,
+		FormsModule,
+		ReactiveFormsModule,
+	],
+	declarations: [
+		PaginatorComponent
+	],
+	exports: [
+		PaginatorComponent
+	]
 })
-export class PaginatorModule { }
+export class StalPaginatorModule { }

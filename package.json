@@ -1,6 +1,15 @@
 {
-  "name": "paginator",
+  "name": "@stal/paginator",
   "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stepobiz/stal-paginator.git"
+  },
+  "author": {
+    "name": "Cavallaro Catello Stefano",
+    "email": "stefano@stepo.biz",
+    "url": "https://stepo.biz"
+  },
   "peerDependencies": {
     "@angular/common": "^14.2.0",
     "@angular/core": "^14.2.0"
